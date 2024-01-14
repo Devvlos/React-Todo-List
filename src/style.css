@@ -94,3 +94,25 @@ html , body{
     scale: 1.01;
     box-shadow: 4px 4px;
 }
+.share{
+    cursor: pointer;
+    position: absolute;
+    margin: 5px -290px;
+    background-color: rgb(255, 0, 144);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    font-family:monospace;
+    transition: 0.3s ease-in-out;
+}
+.share:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    scale: 1.01;
+    box-shadow: 4px 4px;
+}
